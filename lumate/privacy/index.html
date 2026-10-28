@@ -6,109 +6,83 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 64px}a{color:var(--acc)}h1{
 nav{font-size:.9em;color:var(--mut);margin-bottom:1.5em}nav a{margin-right:.8em}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
 hr{border:0;border-top:2px solid var(--line);margin:3em 0}footer{margin-top:3em;color:var(--mut);font-size:.85em}code{font-size:.9em}</style></head><body><main>
 <nav><a href="../../">KOREASIGN Apps</a></nav>
-<p><a href="#en">English</a> · <a href="#ko">한국어</a></p><p><small>Last updated / 최종 수정: 2026-10-23</small></p><section id="en"><h1>Lumate — Privacy Policy</h1>
-<p><strong>Publisher:</strong> KOREASIGN Co., Ltd. ("KOREASIGN", "we")
-<strong>App:</strong> Lumate (iOS <code>kr.co.koreasign.lumate</code>, Android <code>kr.co.koreasign.lumate</code>)
-<strong>Contact:</strong> ks42881@koreasign.co.kr · Tel +82-31-924-0477</p>
-<h2>Summary</h2>
-<p>Lumate is a controller app for KOREASIGN Lumate LED displays installed above automatic doors. The app talks <strong>only to your own LED display boards on your local Wi-Fi network</strong>. It has no user accounts, no analytics, no advertising and no tracking, and it does not send your data to KOREASIGN or to any third party.</p>
-<h2>What the app handles, and where it goes</h2>
+<p><a href="#en">English</a> · <a href="#ko">한국어</a></p><p><small>Last updated: 2026-10-28 · 최종 수정: 2026-10-28</small></p><section id="en"><h1>Lumate Privacy Policy</h1>
+<h2>1. Who we are</h2>
+<p>Lumate is published by <strong>KOREASIGN Co., Ltd.</strong> ("KOREASIGN", "we").</p>
+<ul>
+<li><strong>App:</strong> Lumate (iOS and Android, <code>kr.co.koreasign.lumate</code>)</li>
+<li><strong>Contact:</strong> ks42881@koreasign.co.kr · +82-31-924-0477</li>
+</ul>
+<p>Lumate is a controller app for KOREASIGN Lumate LED displays installed above automatic doors. The app talks <strong>only to your own LED display boards on your local Wi-Fi network</strong>. It has no user accounts, no analytics, no advertising, no tracking and no AI features, and it does not send your data to KOREASIGN or to any third party.</p>
+<h2>2. What the app collects</h2>
+<p>The app does <strong>not collect personal information</strong>. It handles the following data only on your phone and on your own LED boards:</p>
 <table>
 <thead>
-<tr>
-<th>Data</th>
-<th>Why</th>
-<th>Where it goes</th>
-</tr>
+<tr><th>Data</th><th>Why</th><th>Where it goes</th></tr>
 </thead>
 <tbody>
-<tr>
-<td>Photos and videos you choose from your photo library or Files</td>
-<td>To create content for your LED display</td>
-<td>Converted <strong>on your phone</strong> (cropped, resized, encoded into LED frames and audio). The converted files are sent <strong>only to your Lumate board</strong> over your local Wi-Fi. Nothing is uploaded to the internet.</td>
-</tr>
-<tr>
-<td>Schedules, brightness, volume and power settings</td>
-<td>To control your display</td>
-<td>Sent only to your Lumate board over the local network. Also kept on your phone so the app can show them.</td>
-</tr>
-<tr>
-<td>Board identifiers (board ID, display number, IP address on your local network) and the board access code that the app sets during pairing</td>
-<td>To find and control your boards</td>
-<td>Stored on your phone. The access code is kept in the system secure storage (iOS Keychain / Android Keystore-backed storage). Sent only to your own boards.</td>
-</tr>
-<tr>
-<td>Language preference</td>
-<td>To show the app in your language</td>
-<td>Stored on your phone only.</td>
-</tr>
+<tr><td>Photos and videos you choose from your photo library or Files</td><td>To create content for your LED display</td><td>Converted <strong>on your phone</strong> (cropped, resized, encoded into LED frames and audio). The converted files are sent <strong>only to your Lumate board</strong> over your local Wi-Fi. Nothing is uploaded to the internet.</td></tr>
+<tr><td>Schedules, brightness, volume and power settings</td><td>To control your display</td><td>Sent only to your Lumate board over the local network. Also kept on your phone so the app can show them.</td></tr>
+<tr><td>Board identifiers (board ID, display number, IP address on your local network) and the board access code that the app sets during pairing</td><td>To find and control your boards</td><td>Stored on your phone. The access code is kept in the system secure storage (iOS Keychain / Android Keystore-backed storage). Sent only to your own boards.</td></tr>
+<tr><td>Language preference</td><td>To show the app in your language</td><td>Stored on your phone only.</td></tr>
 </tbody>
 </table>
 <p>The app does <strong>not</strong> collect your name, e-mail, phone number, location, contacts, advertising identifiers or device identifiers, and does not use your camera or microphone.</p>
-<h2>Local network</h2>
-<p>To find your boards, the app uses your local Wi-Fi (UDP discovery, a small built-in MQTT broker and HTTP file server on your phone). These services are reachable only from your local network and are used only to exchange commands and content with your Lumate boards.</p>
-<h2>Permissions</h2>
+<p><strong>Local network.</strong> To find your boards, the app uses your local Wi-Fi (UDP discovery, a small built-in MQTT broker and HTTP file server on your phone). These services are reachable only from your local network and are used only to exchange commands and content with your Lumate boards.</p>
+<h2>3. Third-party services</h2>
+<p>The app contains <strong>no third-party SDKs that collect data</strong> (no analytics, crash reporting, advertising, login or cloud services) and does not use any internet server.</p>
+<p>When you tap <strong>Privacy Policy</strong> in the app menu, this page opens in your web browser. It is hosted on GitHub Pages (GitHub, Inc.), which may process your IP address and browser information as part of serving the page, under GitHub's own privacy statement. The app itself sends nothing to GitHub.</p>
+<h2>4. Permissions</h2>
 <ul>
-<li><strong>Photo library (read):</strong> only when you choose a photo or video to show on the display. On Android 13 and later the system photo picker is used and no storage permission is needed.</li>
+<li><strong>Photo library (read):</strong> only when you choose a photo or video to show on the display. On Android 13 and later the system photo picker is used and no storage permission is needed (storage permissions are limited to Android 12 and lower).</li>
 <li><strong>Local network (iOS) / Wi-Fi and network state (Android):</strong> to discover and talk to your boards.</li>
-<li><strong>Nearby Wi-Fi devices (Android 13+):</strong> declared with <code>neverForLocation</code>; the app does not derive your location.</li>
+<li><strong>Nearby Wi-Fi devices (Android 13+):</strong> to discover and talk to your boards; declared as never used to derive location, and the app does not determine your location.</li>
 </ul>
-<h2>Data retention and deletion</h2>
+<p>The app does not request camera, microphone, location, contacts, Bluetooth, biometric or notification permissions.</p>
+<h2>5. Retention and deletion</h2>
 <p>All app data lives on your phone. Deleting content or schedules in the app removes them from the phone. Content already sent to a board stays on that board's memory card until it is replaced or removed. Uninstalling the app deletes all app data from the phone (on iOS, the board access code in the Keychain may remain until the device is reset). KOREASIGN holds no copy of your data, so there is nothing for us to delete on our side.</p>
-<h2>Children</h2>
-<p>Lumate is a business tool and is not directed at children.</p>
-<h2>Changes</h2>
-<p>If the app's data handling changes, we will update this policy and the date above.</p></section><hr><section id="ko"><h1>Lumate 개인정보 처리방침 (국문)</h1>
-<p><strong>운영자:</strong> (주)코리아싸인
-<strong>앱:</strong> Lumate (iOS·Android <code>kr.co.koreasign.lumate</code>)
-<strong>문의:</strong> ks42881@koreasign.co.kr · 전화 031-924-0477</p>
-<h2>요약</h2>
-<p>Lumate는 자동문 위에 설치하는 코리아싸인 Lumate LED 디스플레이를 제어하는 앱입니다. 앱은 <strong>사용자의 로컬 Wi-Fi에 있는 사용자 소유 LED 보드와만</strong> 통신합니다. 회원 계정, 분석 도구, 광고, 추적 기능이 없으며, 사용자의 데이터를 코리아싸인이나 제3자에게 전송하지 않습니다.</p>
-<h2>처리하는 정보와 전송 위치</h2>
+<h2>6. Children</h2>
+<p>Lumate is a business tool and is not directed to children under 14 (under 13 outside Korea). It collects no personal information from anyone.</p>
+<h2>7. Contact and changes</h2>
+<p>Questions about this policy or the app: <strong>KOREASIGN Co., Ltd.</strong> — ks42881@koreasign.co.kr · +82-31-924-0477. Support page: <a href="https://jin-koreasign.github.io/koreasign-legal/lumate/support/">https://jin-koreasign.github.io/koreasign-legal/lumate/support/</a></p>
+<p>If the app's data handling changes, we will update this policy and the date above.</p></section><hr><section id="ko"><h1>Lumate 개인정보 처리방침</h1>
+<h2>1. 운영자</h2>
+<p>Lumate는 <strong>주식회사 코리아사인</strong>(KOREASIGN Co., Ltd., 이하 "회사")이 운영합니다.</p>
+<ul>
+<li><strong>앱:</strong> Lumate (iOS·Android <code>kr.co.koreasign.lumate</code>)</li>
+<li><strong>문의:</strong> ks42881@koreasign.co.kr · +82-31-924-0477</li>
+</ul>
+<p>Lumate는 자동문 위에 설치하는 Lumate LED 디스플레이를 제어하는 앱입니다. 앱은 <strong>사용자의 로컬 Wi-Fi에 있는 사용자 소유 LED 보드와만</strong> 통신합니다. 회원 계정, 분석 도구, 광고, 추적, AI 기능이 없으며, 사용자의 데이터를 회사나 제3자에게 전송하지 않습니다.</p>
+<h2>2. 앱이 수집하는 정보</h2>
+<p>앱은 <strong>개인정보를 수집하지 않습니다.</strong> 아래 정보는 사용자의 휴대폰과 사용자 소유 LED 보드 안에서만 처리됩니다.</p>
 <table>
 <thead>
-<tr>
-<th>정보</th>
-<th>목적</th>
-<th>전송 위치</th>
-</tr>
+<tr><th>정보</th><th>목적</th><th>전송 위치</th></tr>
 </thead>
 <tbody>
-<tr>
-<td>사진 보관함·파일에서 사용자가 고른 사진·영상</td>
-<td>LED 디스플레이용 콘텐츠 제작</td>
-<td><strong>휴대폰 안에서</strong> 변환(자르기·크기 조정·LED 프레임과 음원으로 인코딩)하고, 변환된 파일은 로컬 Wi-Fi를 통해 <strong>사용자의 Lumate 보드로만</strong> 보냅니다. 인터넷으로 업로드하지 않습니다.</td>
-</tr>
-<tr>
-<td>스케줄, 밝기, 음량, 전원 설정</td>
-<td>디스플레이 제어</td>
-<td>로컬 네트워크로 사용자의 보드에만 전송. 앱 표시를 위해 휴대폰에도 보관.</td>
-</tr>
-<tr>
-<td>보드 식별 정보(보드 ID, 디스플레이 번호, 로컬 IP)와 페어링 때 앱이 설정한 보드 접근 코드</td>
-<td>보드 검색·제어</td>
-<td>휴대폰에 저장. 접근 코드는 시스템 보안 저장소(iOS 키체인 / Android 보안 저장소)에 보관. 사용자의 보드에만 전송.</td>
-</tr>
-<tr>
-<td>언어 설정</td>
-<td>앱 표시 언어</td>
-<td>휴대폰에만 저장.</td>
-</tr>
+<tr><td>사진 보관함·파일에서 사용자가 고른 사진·영상</td><td>LED 디스플레이용 콘텐츠 제작</td><td><strong>휴대폰 안에서</strong> 변환(자르기·크기 조정·LED 프레임과 음원으로 인코딩)하고, 변환된 파일은 로컬 Wi-Fi를 통해 <strong>사용자의 Lumate 보드로만</strong> 보냅니다. 인터넷으로 업로드하지 않습니다.</td></tr>
+<tr><td>스케줄, 밝기, 음량, 전원 설정</td><td>디스플레이 제어</td><td>로컬 네트워크로 사용자의 보드에만 전송. 앱 표시를 위해 휴대폰에도 보관.</td></tr>
+<tr><td>보드 식별 정보(보드 ID, 디스플레이 번호, 로컬 IP)와 페어링 때 앱이 설정한 보드 접근 코드</td><td>보드 검색·제어</td><td>휴대폰에 저장. 접근 코드는 시스템 보안 저장소(iOS 키체인 / Android 보안 저장소)에 보관. 사용자의 보드에만 전송.</td></tr>
+<tr><td>언어 설정</td><td>앱 표시 언어</td><td>휴대폰에만 저장.</td></tr>
 </tbody>
 </table>
 <p>이름, 이메일, 전화번호, 위치, 연락처, 광고 식별자, 기기 식별자를 수집하지 않으며, 카메라와 마이크를 사용하지 않습니다.</p>
-<h2>로컬 네트워크</h2>
-<p>보드를 찾기 위해 로컬 Wi-Fi(UDP 검색, 휴대폰 안의 소형 MQTT 브로커와 HTTP 파일 서버)를 사용합니다. 이 기능은 로컬 네트워크 안에서만 접근 가능하며, Lumate 보드와 명령·콘텐츠를 주고받는 데에만 쓰입니다.</p>
-<h2>권한</h2>
+<p><strong>로컬 네트워크.</strong> 보드를 찾기 위해 로컬 Wi-Fi(UDP 검색, 휴대폰 안의 소형 MQTT 브로커와 HTTP 파일 서버)를 사용합니다. 이 기능은 로컬 네트워크 안에서만 접근 가능하며, Lumate 보드와 명령·콘텐츠를 주고받는 데에만 쓰입니다.</p>
+<h2>3. 제3자 서비스</h2>
+<p>앱에는 <strong>데이터를 수집하는 제3자 SDK가 없습니다</strong>(분석, 오류 보고, 광고, 로그인, 클라우드 서비스 없음). 앱은 인터넷 서버를 사용하지 않습니다.</p>
+<p>앱 메뉴에서 <strong>개인정보 처리방침</strong>을 누르면 이 페이지가 웹 브라우저에서 열립니다. 이 페이지는 GitHub Pages(GitHub, Inc.)에 게시되어 있으며, GitHub는 페이지 제공 과정에서 IP 주소와 브라우저 정보를 자체 개인정보 처리방침에 따라 처리할 수 있습니다. 앱 자체는 GitHub에 아무것도 보내지 않습니다.</p>
+<h2>4. 권한</h2>
 <ul>
-<li><strong>사진 보관함(읽기):</strong> 디스플레이에 보낼 사진·영상을 고를 때만. Android 13 이상은 시스템 사진 선택기를 써서 저장소 권한이 필요 없습니다.</li>
+<li><strong>사진 보관함(읽기):</strong> 디스플레이에 보낼 사진·영상을 고를 때만. Android 13 이상은 시스템 사진 선택기를 써서 저장소 권한이 필요 없습니다(저장소 권한은 Android 12 이하로 한정).</li>
 <li><strong>로컬 네트워크(iOS) / Wi-Fi·네트워크 상태(Android):</strong> 보드 검색·통신.</li>
-<li><strong>근처 Wi-Fi 기기(Android 13+):</strong> <code>neverForLocation</code>으로 선언 — 위치를 추정하지 않습니다.</li>
+<li><strong>근처 Wi-Fi 기기(Android 13+):</strong> 보드 검색·통신용이며, 위치 추정에 쓰지 않는다고 선언되어 있어 위치를 파악하지 않습니다.</li>
 </ul>
-<h2>보관과 삭제</h2>
-<p>모든 앱 데이터는 휴대폰에만 있습니다. 앱에서 콘텐츠·스케줄을 지우면 휴대폰에서 삭제됩니다. 이미 보드로 보낸 콘텐츠는 교체·삭제될 때까지 보드의 메모리 카드에 남습니다. 앱을 삭제하면 휴대폰의 앱 데이터가 모두 지워집니다(iOS 키체인의 보드 접근 코드는 기기 초기화 전까지 남을 수 있음). 코리아싸인은 사용자 데이터 사본을 갖고 있지 않습니다.</p>
-<h2>아동</h2>
-<p>Lumate는 업무용 도구이며 아동을 대상으로 하지 않습니다.</p>
-<h2>변경</h2>
+<p>카메라, 마이크, 위치, 연락처, 블루투스, 생체 인증, 알림 권한은 요청하지 않습니다.</p>
+<h2>5. 보관과 삭제</h2>
+<p>모든 앱 데이터는 휴대폰에만 있습니다. 앱에서 콘텐츠·스케줄을 지우면 휴대폰에서 삭제됩니다. 이미 보드로 보낸 콘텐츠는 교체·삭제될 때까지 보드의 메모리 카드에 남습니다. 앱을 삭제하면 휴대폰의 앱 데이터가 모두 지워집니다(iOS 키체인의 보드 접근 코드는 기기 초기화 전까지 남을 수 있음). 회사는 사용자 데이터 사본을 갖고 있지 않으므로 회사 측에서 삭제할 데이터가 없습니다.</p>
+<h2>6. 아동</h2>
+<p>Lumate는 업무용 도구이며 만 14세 미만 아동(한국 외 지역은 만 13세 미만)을 대상으로 하지 않습니다. 누구로부터도 개인정보를 수집하지 않습니다.</p>
+<h2>7. 문의와 변경</h2>
+<p>이 방침이나 앱에 관한 문의: <strong>주식회사 코리아사인</strong> — ks42881@koreasign.co.kr · +82-31-924-0477. 지원 페이지: <a href="https://jin-koreasign.github.io/koreasign-legal/lumate/support/">https://jin-koreasign.github.io/koreasign-legal/lumate/support/</a></p>
 <p>데이터 처리 방식이 바뀌면 이 방침과 위 날짜를 갱신합니다.</p></section>
 <footer>© 2026 KOREASIGN Co., Ltd. · ks42881@koreasign.co.kr · Tel +82-31-924-0477</footer></main></body></html>

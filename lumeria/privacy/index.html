@@ -6,78 +6,103 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 64px}a{color:var(--acc)}h1{
 nav{font-size:.9em;color:var(--mut);margin-bottom:1.5em}nav a{margin-right:.8em}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
 hr{border:0;border-top:2px solid var(--line);margin:3em 0}footer{margin-top:3em;color:var(--mut);font-size:.85em}code{font-size:.9em}</style></head><body><main>
 <nav><a href="../../">KOREASIGN Apps</a></nav>
-<p><a href="#en">English</a> · <a href="#ko">한국어</a></p><p><small>Last updated / 최종 수정: 2026-10-23</small></p><section id="en"><h1>Lumeria — Privacy Policy</h1>
-<p>Lumeria is the companion app for KOREASIGN's Lumeria LED display. This policy explains what the app does with information. In short: <strong>no account, no analytics, no advertising, no tracking.</strong> Almost everything happens on your phone and on your own Lumeria display.</p>
+<p><a href="#en">English</a> · <a href="#ko">한국어</a></p><p><small>Last updated: 2026-10-28 · 최종 수정: 2026-10-28</small></p><section id="en"><h1>Lumeria Privacy Policy</h1>
+<p>Lumeria is the companion app for KOREASIGN's Lumeria LED display. This policy explains what the app does with information. In short: <strong>no account, no analytics, no advertising, no tracking.</strong> Almost everything happens on your phone and on your own Lumeria display. The only thing that can leave your phone for a third party is text you choose to type into the optional AI verse suggestion.</p>
 <h2>1. Who we are</h2>
-<p>KOREASIGN Co., Ltd. ("KOREASIGN", "we"), Republic of Korea. Contact: ks42881@koreasign.co.kr · Tel +82-31-924-0477.</p>
-<h2>2. Information the app handles</h2>
-<h3>2.1 Local network control of your display</h3>
-<p>The app finds and controls your Lumeria display over your local Wi-Fi network, or over the display's own Wi-Fi hotspot. It listens for the display's discovery broadcasts, runs a small local message server (MQTT) and file server on the phone, and sends commands, schedules and content files directly to the display. This traffic stays on your local network. It is not sent to KOREASIGN or to anyone else.</p>
-<p>The app stores the display's network name, address, display ID and the connection credentials it needs, <strong>only on your phone</strong>.</p>
-<h3>2.2 Photos and videos you choose</h3>
-<p>When you pick a photo or video, the app reads only that item. It converts it <strong>on your phone</strong> into the display's format and sends it <strong>only to your Lumeria display</strong>. Nothing is uploaded to KOREASIGN or to any cloud service.</p>
-<h3>2.3 Text-to-speech</h3>
-<p>By default, spoken audio for Text content is made <strong>on your phone</strong> with the phone's built-in voices, and the text does not leave the device. <em>(Optional, currently off: if KOREASIGN enables the "Azure" voice engine in a future version, the text you choose to have spoken is sent through KOREASIGN's server to Microsoft Azure Speech to make the audio. No account or device identity is attached.)</em></p>
-<h3>2.4 AI verse suggestions (optional)</h3>
-<p>If this feature is available in your version of the app, in the Quran tab you can type how you feel to get suggested passages. This happens only if you use the feature <strong>and agree</strong> in the consent dialog. The text you type is sent through KOREASIGN's relay server to <strong>Google Gemini</strong> (Google LLC) to produce the suggestion. No account, name, device identifier or other app data is attached. KOREASIGN's relay does not store the text. Google processes it under its own terms (https://ai.google.dev/gemini-api/terms). You can withdraw consent at any time in Menu → "Reset AI consent". The verse text itself always comes from the Quran data built into the app.</p>
-<h3>2.5 Quran recitation downloads</h3>
-<p>Recitations that are not built into the app are downloaded from EveryAyah.com when you play or use them. As with any web request, that site receives your IP address. No other information is sent.</p>
-<h3>2.6 Data stored on your phone</h3>
-<p>Your schedules, play lists, saved verses, settings and display list are stored only in the app's storage on your phone. They are deleted when you uninstall the app.</p>
-<h2>3. What we do NOT do</h2>
+<p>KOREASIGN Co., Ltd. ("KOREASIGN", "we"), Republic of Korea, publishes the Lumeria app.<br>
+Contact: ks42881@koreasign.co.kr · +82-31-924-0477.</p>
+<h2>2. What the app collects</h2>
+<p><strong>AI verse suggestions (optional, the only data collected).</strong> If this feature is available in your version of the app, you can type how you feel in the Quran tab to get suggested passages. Nothing is sent unless you use the feature <strong>and agree</strong> in the consent dialog. The text you type is sent to KOREASIGN's relay and from there to Google Gemini to produce the suggestion (see section 3). No account, name, device identifier or other app data is attached. The verse text shown always comes from the Quran data built into the app, never from the AI. You can withdraw consent at any time in Menu → "Reset AI consent".</p>
+<p>Everything else stays on your phone or on your own display and is <strong>not collected</strong> by KOREASIGN:</p>
 <ul>
-<li>No user accounts or sign-in.</li>
-<li>No analytics, crash-reporting or advertising SDKs.</li>
-<li>No tracking across apps or websites, and no sale or sharing of personal data.</li>
-<li>No access to your camera, microphone, contacts or location history. On Android, the location permission is requested only because Android requires it to scan for and join the display's Wi-Fi. The app does not record or send your location.</li>
+<li><strong>Local network control of your display.</strong> The app finds and controls your Lumeria display over your local Wi-Fi network or the display's own Wi-Fi hotspot. It listens for the display's discovery broadcasts, runs a small local message server (MQTT) and file server on the phone, and sends commands, schedules and content files directly to the display. This traffic stays on your local network. The display's network name, address, display ID and connection credentials are stored <strong>only on your phone</strong>.</li>
+<li><strong>Photos and videos you choose.</strong> The app reads only the items you pick, converts them <strong>on your phone</strong> into the display's format and sends them <strong>only to your Lumeria display</strong>. Nothing is uploaded to KOREASIGN or to any cloud service.</li>
+<li><strong>Text-to-speech.</strong> Spoken audio for Text content is made <strong>on your phone</strong> with the phone's built-in voices; the text does not leave the device.</li>
+<li><strong>Your schedules, play lists, saved verses, settings and display list</strong> are stored only in the app's storage on your phone.</li>
+</ul>
+<p>What we do not do: no user accounts or sign-in; no analytics, crash-reporting or advertising SDKs; no tracking across apps or websites; no sale of personal data; no access to your camera, microphone, contacts or location history.</p>
+<h2>3. Third-party services</h2>
+<table>
+<thead>
+<tr><th>Service</th><th>What it receives</th><th>When</th><th>Where</th></tr>
+</thead>
+<tbody>
+<tr><td>KOREASIGN AI relay (Netlify Functions, operated by Netlify, Inc.)</td><td>The AI text you typed</td><td>Only when you use AI suggestions after agreeing</td><td>United States</td></tr>
+<tr><td>Google Gemini API (Google LLC)</td><td>The same AI text, forwarded by the relay</td><td>Same as above</td><td>United States / Google's global infrastructure</td></tr>
+<tr><td>EveryAyah.com</td><td>An ordinary web request for a recitation file (your IP address)</td><td>When you play or use a recitation that is not built into the app</td><td>Outside Korea</td></tr>
+</tbody>
+</table>
+<ul>
+<li>The relay only forwards the text and returns the answer. <strong>It does not store the text</strong> and attaches no identity.</li>
+<li>The relay uses the <strong>free tier of the Google Gemini API</strong>. Under Google's terms for unpaid services, <strong>Google may use the submitted text to provide, improve and develop its products and services</strong>, which can include human review. Do not type personal or sensitive information into the AI box. Google's terms: <a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a> · Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Overseas transfer: the AI text is transferred to the United States over HTTPS (encrypted) at the moment you send it, for the purpose of generating the suggestion. You can avoid the transfer entirely by not using, or declining, the AI feature; the rest of the app works without it.</li>
 </ul>
 <h2>4. Permissions</h2>
 <ul>
 <li><strong>Local network</strong> (iOS): to discover and control your display.</li>
-<li><strong>Photos/videos</strong>: only the items you pick, to show them on your display.</li>
-<li><strong>Nearby Wi-Fi devices / location</strong> (Android): to find and join the display's Wi-Fi.</li>
-<li><strong>Notifications / foreground service</strong> (Android): to keep the display connection alive while you use the app.</li>
+<li><strong>Photos/videos</strong>: only the items you pick, to show them on your display. On Android 13 and later the system photo picker is used and no storage permission is requested; on Android 12 and earlier, storage read access is requested for this.</li>
+<li><strong>Nearby Wi-Fi devices</strong> (Android 13+) and <strong>location</strong> (Android): only to scan for and join the display's Wi-Fi hotspot from inside the app. Android 12 and earlier require the location permission for Wi-Fi scanning. The app does not determine, record or send your location.</li>
+<li><strong>Notifications / foreground service</strong> (Android): to show the "connected" notification that keeps the display connection alive while you use the app.</li>
 </ul>
-<h2>5. Children</h2>
-<p>The app is not directed at children under 13 and does not knowingly collect their personal information.</p>
-<h2>6. Changes</h2>
-<p>If this policy changes, we will update it on this page and in the app.</p>
-<h2>7. Contact</h2>
-<p>Questions or requests: ks42881@koreasign.co.kr · Tel +82-31-924-0477.</p></section><hr><section id="ko"><h1>Lumeria — 개인정보 처리방침</h1>
-<p>Lumeria는 코리아사인의 Lumeria LED 디스플레이를 제어하는 앱입니다. 이 방침은 앱이 정보를 어떻게 다루는지 설명합니다. 요약하면 <strong>계정, 분석, 광고, 추적이 모두 없습니다.</strong> 거의 모든 처리는 사용자의 휴대폰과 사용자의 Lumeria 디스플레이 안에서 이루어집니다.</p>
-<h2>1. 운영자</h2>
-<p>주식회사 코리아사인("회사"), 대한민국. 문의: ks42881@koreasign.co.kr · 전화 031-924-0477</p>
-<h2>2. 앱이 다루는 정보</h2>
-<h3>2.1 디스플레이 로컬 네트워크 제어</h3>
-<p>앱은 같은 Wi-Fi나 디스플레이 자체 핫스폿을 통해 디스플레이를 찾고 제어합니다. 디스플레이가 보내는 검색 신호를 수신하고, 휴대폰 안에 작은 로컬 메시지 서버(MQTT)와 파일 서버를 띄운 뒤, 명령·스케줄·콘텐츠 파일을 디스플레이로 직접 보냅니다. 이 통신은 로컬 네트워크 안에서만 오가며 회사나 제3자에게 전송되지 않습니다. 디스플레이 이름, 주소, ID, 연결 정보는 <strong>휴대폰에만</strong> 저장됩니다.</p>
-<h3>2.2 사용자가 고른 사진·영상</h3>
-<p>앱은 사용자가 고른 항목만 읽습니다. 그 항목을 <strong>휴대폰 안에서</strong> 디스플레이 형식으로 변환한 뒤 <strong>사용자의 디스플레이로만</strong> 보냅니다. 회사 서버나 클라우드에는 업로드하지 않습니다.</p>
-<h3>2.3 음성 합성(TTS)</h3>
-<p>기본 설정에서는 텍스트 콘텐츠의 음성을 휴대폰에 내장된 음성으로 <strong>기기 안에서</strong> 만들며, 텍스트가 기기 밖으로 나가지 않습니다. <em>(선택 기능, 현재 꺼져 있음: 이후 버전에서 회사가 "Azure" 음성 엔진을 켜면, 읽어 줄 텍스트가 회사 서버를 거쳐 Microsoft Azure Speech로 전송되어 음성이 만들어집니다. 계정이나 기기 식별 정보는 붙지 않습니다.)</em></p>
-<h3>2.4 AI 구절 추천(선택)</h3>
-<p>사용 중인 버전에 이 기능이 있는 경우, 꾸란 탭에 지금 느끼는 감정을 입력하면 구절을 추천받을 수 있습니다. 이 처리는 사용자가 기능을 쓰고 <strong>동의 창에서 동의한 경우에만</strong> 이루어집니다. 입력한 텍스트는 회사의 중계 서버를 거쳐 <strong>Google Gemini</strong>(Google LLC)로 전송되어 추천을 만듭니다. 계정, 이름, 기기 식별자 등 다른 정보는 붙지 않으며, 중계 서버는 텍스트를 저장하지 않습니다. Google은 자체 약관에 따라 처리합니다. 동의는 메뉴 → "AI 동의 재설정"에서 언제든 철회할 수 있습니다. 구절 본문은 항상 앱에 내장된 꾸란 데이터에서 가져옵니다.</p>
-<h3>2.5 꾸란 낭송 다운로드</h3>
-<p>앱에 내장되지 않은 낭송은 재생하거나 사용할 때 EveryAyah.com에서 내려받습니다. 일반 웹 요청과 마찬가지로 해당 사이트는 IP 주소를 받습니다. 그 밖의 정보는 보내지 않습니다.</p>
-<h3>2.6 휴대폰에 저장되는 데이터</h3>
-<p>스케줄, 플레이리스트, 저장한 구절, 설정, 디스플레이 목록은 휴대폰의 앱 저장 공간에만 저장되며 앱을 삭제하면 함께 지워집니다.</p>
-<h2>3. 하지 않는 것</h2>
+<h2>5. Retention and deletion</h2>
 <ul>
-<li>회원 가입이나 로그인이 없습니다.</li>
-<li>분석, 크래시 리포트, 광고 SDK를 쓰지 않습니다.</li>
-<li>앱이나 웹사이트를 넘나드는 추적을 하지 않으며 개인정보를 판매하거나 공유하지 않습니다.</li>
-<li>카메라, 마이크, 연락처, 위치 기록에 접근하지 않습니다. 안드로이드의 위치 권한은 디스플레이 Wi-Fi를 검색하고 연결할 때 OS가 요구하기 때문에만 요청하며, 위치를 기록하거나 전송하지 않습니다.</li>
+<li>Data on your phone stays there until you delete it in the app or uninstall the app, which removes it.</li>
+<li>KOREASIGN does not retain the AI text: the relay processes it in memory only for the duration of the request.</li>
+<li>Text received by Google is retained and used under Google's terms (see section 3); KOREASIGN cannot delete it from Google's systems.</li>
+<li>You can withdraw AI consent at any time in Menu → "Reset AI consent". Questions or requests: see section 7.</li>
+</ul>
+<h2>6. Children</h2>
+<p>The app is not directed to children under 14 (under 13 outside Korea). It does not knowingly collect personal information from children; it collects no personal information from anyone apart from the AI text described above.</p>
+<h2>7. Contact and changes</h2>
+<p>Questions, requests or complaints: KOREASIGN Co., Ltd. — ks42881@koreasign.co.kr · +82-31-924-0477.<br>
+If this policy changes, we will update this page and the "last updated" date above, and the app links to this page from Menu → "Privacy Policy".</p></section><hr><section id="ko"><h1>Lumeria 개인정보 처리방침</h1>
+<p>Lumeria는 주식회사 코리아사인의 Lumeria LED 디스플레이를 제어하는 앱입니다. 이 방침은 앱이 정보를 어떻게 다루는지 설명합니다. 요약하면 <strong>계정, 분석, 광고, 추적이 모두 없습니다.</strong> 거의 모든 처리는 사용자의 휴대폰과 사용자의 Lumeria 디스플레이 안에서 이루어집니다. 제3자에게 전달될 수 있는 것은 사용자가 선택 기능인 AI 구절 추천에 직접 입력한 텍스트뿐입니다.</p>
+<h2>1. 운영자</h2>
+<p>주식회사 코리아사인(이하 "회사"), 대한민국. Lumeria 앱을 배포합니다.<br>
+문의: ks42881@koreasign.co.kr · +82-31-924-0477</p>
+<h2>2. 앱이 수집하는 정보</h2>
+<p><strong>AI 구절 추천(선택, 유일한 수집 항목).</strong> 사용 중인 버전에 이 기능이 있는 경우, 꾸란 탭에 지금 느끼는 감정을 입력하면 구절을 추천받을 수 있습니다. 사용자가 기능을 쓰고 <strong>동의 창에서 동의한 경우에만</strong> 전송됩니다. 입력한 텍스트는 회사의 중계 서버를 거쳐 Google Gemini로 전달되어 추천을 만듭니다(3항 참고). 계정, 이름, 기기 식별자 등 다른 앱 데이터는 붙지 않습니다. 화면에 나오는 구절 본문은 항상 앱에 내장된 꾸란 데이터에서 가져오며 AI가 만들지 않습니다. 동의는 메뉴 → "Reset AI consent"에서 언제든 철회할 수 있습니다.</p>
+<p>그 밖의 정보는 휴대폰이나 사용자의 디스플레이 안에만 있으며 회사가 <strong>수집하지 않습니다</strong>.</p>
+<ul>
+<li><strong>디스플레이 로컬 네트워크 제어.</strong> 앱은 같은 Wi-Fi나 디스플레이 자체 핫스폿을 통해 디스플레이를 찾고 제어합니다. 디스플레이의 검색 신호를 수신하고, 휴대폰 안에 작은 로컬 메시지 서버(MQTT)와 파일 서버를 띄운 뒤, 명령·스케줄·콘텐츠 파일을 디스플레이로 직접 보냅니다. 이 통신은 로컬 네트워크 안에서만 오갑니다. 디스플레이 이름, 주소, ID, 연결 정보는 <strong>휴대폰에만</strong> 저장됩니다.</li>
+<li><strong>사용자가 고른 사진·영상.</strong> 앱은 사용자가 고른 항목만 읽고 <strong>휴대폰 안에서</strong> 디스플레이 형식으로 변환해 <strong>사용자의 디스플레이로만</strong> 보냅니다. 회사 서버나 클라우드에는 업로드하지 않습니다.</li>
+<li><strong>음성 합성(TTS).</strong> 텍스트 콘텐츠의 음성은 휴대폰에 내장된 음성으로 <strong>기기 안에서</strong> 만들며, 텍스트가 기기 밖으로 나가지 않습니다.</li>
+<li><strong>스케줄, 플레이리스트, 저장한 구절, 설정, 디스플레이 목록</strong>은 휴대폰의 앱 저장 공간에만 저장됩니다.</li>
+</ul>
+<p>하지 않는 것: 회원 가입·로그인 없음, 분석·크래시 리포트·광고 SDK 없음, 앱·웹사이트를 넘나드는 추적 없음, 개인정보 판매 없음, 카메라·마이크·연락처·위치 기록 접근 없음.</p>
+<h2>3. 제3자 서비스</h2>
+<table>
+<thead>
+<tr><th>서비스</th><th>받는 정보</th><th>시점</th><th>위치</th></tr>
+</thead>
+<tbody>
+<tr><td>회사 AI 중계 서버(Netlify Functions, Netlify, Inc. 운영)</td><td>사용자가 입력한 AI 텍스트</td><td>동의 후 AI 추천을 사용할 때만</td><td>미국</td></tr>
+<tr><td>Google Gemini API(Google LLC)</td><td>중계 서버가 전달한 같은 AI 텍스트</td><td>위와 같음</td><td>미국 / Google 글로벌 인프라</td></tr>
+<tr><td>EveryAyah.com</td><td>낭송 파일을 받는 일반 웹 요청(IP 주소)</td><td>앱에 내장되지 않은 낭송을 재생하거나 사용할 때</td><td>국외</td></tr>
+</tbody>
+</table>
+<ul>
+<li>중계 서버는 텍스트를 전달하고 답을 돌려줄 뿐이며 <strong>텍스트를 저장하지 않고</strong> 식별 정보도 붙이지 않습니다.</li>
+<li>중계 서버는 <strong>Google Gemini API 무료 등급</strong>을 사용합니다. 무료 서비스에 관한 Google 약관에 따라 <strong>Google은 전달된 텍스트를 자사 제품과 서비스의 제공·개선·개발에 사용할 수 있으며</strong>, 여기에는 사람의 검토가 포함될 수 있습니다. AI 입력란에는 개인정보나 민감한 정보를 입력하지 마세요. Google 약관: <a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a> · Google 개인정보처리방침: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>국외 이전: AI 텍스트는 사용자가 보내는 시점에 추천 생성을 목적으로 HTTPS(암호화)로 미국에 전송됩니다. AI 기능을 쓰지 않거나 동의하지 않으면 국외 이전은 전혀 일어나지 않으며, 나머지 기능은 그대로 쓸 수 있습니다.</li>
 </ul>
 <h2>4. 권한</h2>
 <ul>
 <li><strong>로컬 네트워크</strong>(iOS): 디스플레이 검색과 제어</li>
-<li><strong>사진/영상</strong>: 사용자가 고른 항목만, 디스플레이 표시용</li>
-<li><strong>주변 Wi-Fi 기기 / 위치</strong>(안드로이드): 디스플레이 Wi-Fi 검색과 연결</li>
-<li><strong>알림 / 포그라운드 서비스</strong>(안드로이드): 앱을 쓰는 동안 디스플레이 연결 유지</li>
+<li><strong>사진/영상</strong>: 사용자가 고른 항목만, 디스플레이 표시용. 안드로이드 13 이상은 시스템 사진 선택기를 써서 저장소 권한을 요청하지 않고, 안드로이드 12 이하에서만 저장소 읽기 권한을 요청합니다.</li>
+<li><strong>주변 Wi-Fi 기기</strong>(안드로이드 13 이상)와 <strong>위치</strong>(안드로이드): 앱 안에서 디스플레이 핫스폿을 검색하고 연결할 때만 사용합니다. 안드로이드 12 이하는 Wi-Fi 검색에 위치 권한을 요구합니다. 앱은 위치를 파악하거나 기록하거나 전송하지 않습니다.</li>
+<li><strong>알림 / 포그라운드 서비스</strong>(안드로이드): 앱을 쓰는 동안 디스플레이 연결을 유지하는 "연결됨" 알림 표시</li>
 </ul>
-<h2>5. 아동</h2>
-<p>이 앱은 만 13세 미만 아동을 대상으로 하지 않으며 아동의 개인정보를 알면서 수집하지 않습니다.</p>
-<h2>6. 변경</h2>
-<p>방침이 바뀌면 이 페이지와 앱에서 알립니다.</p>
-<h2>7. 문의</h2>
-<p>ks42881@koreasign.co.kr · 전화 031-924-0477</p></section>
+<h2>5. 보관과 삭제</h2>
+<ul>
+<li>휴대폰에 저장된 데이터는 사용자가 앱에서 지우거나 앱을 삭제할 때까지 휴대폰에만 남으며, 앱을 삭제하면 함께 지워집니다.</li>
+<li>회사는 AI 텍스트를 보유하지 않습니다. 중계 서버는 요청을 처리하는 동안에만 메모리에서 다룹니다.</li>
+<li>Google이 받은 텍스트는 Google 약관에 따라 보유·이용되며(3항), 회사가 Google 시스템에서 삭제할 수는 없습니다.</li>
+<li>AI 동의는 메뉴 → "Reset AI consent"에서 언제든 철회할 수 있습니다. 문의와 요청은 7항을 참고하세요.</li>
+</ul>
+<h2>6. 아동</h2>
+<p>이 앱은 만 14세 미만(대한민국 외 지역은 만 13세 미만) 아동을 대상으로 하지 않습니다. 아동의 개인정보를 알면서 수집하지 않으며, 위에서 설명한 AI 텍스트 외에는 누구의 개인정보도 수집하지 않습니다.</p>
+<h2>7. 문의와 변경</h2>
+<p>문의, 요청, 불만: 주식회사 코리아사인 — ks42881@koreasign.co.kr · +82-31-924-0477<br>
+방침이 바뀌면 이 페이지와 위의 "최종 수정" 날짜를 갱신합니다. 앱의 메뉴 → "Privacy Policy" 항목이 이 페이지로 연결됩니다.</p></section>
 <footer>© 2026 KOREASIGN Co., Ltd. · ks42881@koreasign.co.kr · Tel +82-31-924-0477</footer></main></body></html>
